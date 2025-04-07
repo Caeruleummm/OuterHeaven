@@ -36,7 +36,7 @@ vi /etc/pve/corosync.conf
 /etc/pve/priv/known_hosts   
 ```
 ## If using ceph, edit the ceph configuration file to reflect the new network
-## (thanks u/FortunatelyLethal)
+#### (thanks u/FortunatelyLethal)
 #### :%s/172\.30\.30\./172.30.30./g   <- vi command to replace all instances
 ```bash
 vi /etc/ceph/ceph.conf
