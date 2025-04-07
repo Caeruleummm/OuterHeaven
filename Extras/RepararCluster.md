@@ -31,7 +31,7 @@ vi /etc/resolv.conf
 vi /etc/pve/corosync.conf
 ```
 ## Edit the known hosts file to have the correct IPs
-## :%s/172\.30\.30\./172.30.30./g   <- vi command to replace all instances
+#### :%s/172\.30\.30\./172.30.30./g   <- vi command to replace all instances
 ```bash
 /etc/pve/priv/known_hosts   
 ```
