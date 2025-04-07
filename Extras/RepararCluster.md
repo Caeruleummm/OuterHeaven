@@ -26,7 +26,7 @@ vi /etc/resolv.conf
 ```
 ## Edit the corosync file and replace the old IPs with the new IPs for all hosts
 #### :%s/172\.30\.30\./172.30.30./g   <- vi command to replace all instances
-## BE SURE TO INCREMENT THE config_version: x LINE BY ONE TO ENSURE THE CONFIG IS NOT OVERWRITTEN
+#### BE SURE TO INCREMENT THE config_version: x LINE BY ONE TO ENSURE THE CONFIG IS NOT OVERWRITTEN
 ```bash
 vi /etc/pve/corosync.conf
 ```
