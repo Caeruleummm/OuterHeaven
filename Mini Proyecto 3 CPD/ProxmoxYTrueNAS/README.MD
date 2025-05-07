@@ -13,4 +13,4 @@
    ![proxmoxinstall4](https://github.com/Caeruleummm/OuterHeaven/blob/main/Extras/capturas/instalar%20proxmox/proxmoxinstall4.jpg?raw=true)
 
 5. **Instalación - Paso 5**  
-   ![proxmoxinstall5](https://github.com/Caeruleummm/OuterHeaven/blob/main/Extras/capturas/instalar%20proxmox/proxmoxinstall5.jpg?raw=true)
+   ![proxmoxinstall5](https://github.com/Caeruleummm/OuterHeaven/blob/main/Extras/capturas/instalar%20proxmox/proxmoxinstalll5.jpg?raw=true)
