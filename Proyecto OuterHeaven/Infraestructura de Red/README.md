@@ -70,3 +70,5 @@
 
 9. **Masquerade (Ejemplo)**  
    ![MasqueradeEJ](https://github.com/Caeruleummm/OuterHeaven/blob/main/Extras/capturas/hotelejemplo/9.MasqueradeEJ.png?raw=true)
+9. **Fix Adresses (Ejemplo)**  
+   ![MasqueradeEJ](https://github.com/Caeruleummm/OuterHeaven/blob/main/Extras/capturas/hotelejemplo/FIXIPs.png?raw=true)
