@@ -2,6 +2,7 @@
 
 1. **Creacion de la WAN**
    ![](\..\Extras\capturas\chr-ont\1.CreaciondelaWAN.png)
+   ![](https://github.com/Caeruleummm/OuterHeaven/blob/main/Extras/capturas/instalar%20proxmox/proxmoxinstall1.jpg?raw=true)
 
 2. **Bridge y OLT**
    ![](.\capturas\chr-ont\2.BridgevOLT.png)
