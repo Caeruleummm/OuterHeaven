@@ -1,7 +1,7 @@
 ### chr-ont
 
 1. **Creacion de la WAN**
-   ![](..\Extras\capturas\chr-ont\1.CreaciondelaWAN.png)
+   ![](\..\Extras\capturas\chr-ont\1.CreaciondelaWAN.png)
 
 2. **Bridge y OLT**
    ![](.\capturas\chr-ont\2.BridgevOLT.png)
@@ -25,7 +25,7 @@
    ![](.\capturas\chr-ont\8.ProfilesFinalesEJ.png)
 
 9. **PPPoE Server**
-   ![](.\capturas\chr-ont\9.PPPoE Server.png)
+   ![](.\capturas\chr-ont\9.PPPoE Server.png)   
 
 10. **Creación de Secrets PPP**
     ![](.\capturas\chr-ont\10.CreacionSecretsPPPEJ.png)
