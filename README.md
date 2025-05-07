@@ -1,6 +1,6 @@
 # Outer Heaven - Infraestructura ISP Simulada
 
-**Outer Heaven** és un projecte final que simula una infraestructura pròpia d’un ISP orientat al sector hoteler i residencial. El projecte integra tecnologies reals emprades a l’entorn professional per oferir serveis de connectivitat i virtualització amb alta disponibilitat, monitorització avançada i automatització completa.
+**Outer Heaven** és un projecte final que simula una infraestructura pròpia d’un ISP orientat al sector hoteler i residencial. El projecte integra tecnologies reals empleades a l’entorn professional per oferir serveis de connectivitat mantenint una virtualització amb alta disponibilitat, monitorització avançada i automatització completa (simulacio). Aquest projecte es molt escalable amb un presupost adecuat per als serveis oferits y desplegats ( en aquest cast el presupost d'aquest projecte a sigut nul).
 
 ## Objectius Principals
 
@@ -10,8 +10,10 @@
 - Automatitzar la configuració i gestió de serveis amb **Ansible**.
 - Monitoritzar en temps real amb **Zabbix**, **NetData** i integració amb sistemes de notificació.
 - Implementar serveis de **DNS intern en alta disponibilitat** amb Docker Swarm.
-- Proveir un sistema funcional de **provisionament PPPoE**.
-- Gestionar còpies de seguretat locals i en el núvol de forma automatitzada.
+- Proveir un sistema funcional de **provisionament PPPoE** a clients particulars i hotels simulats.
+- Gestionar còpies de seguretat locals i en el núvol de forma automatitzada (Ansible).
+- Implementar un sistema **RADIUS** per a Hotels Simulats.
+- Implementar un sistema de limitacio de velocitat d'amplada de banda imitant un ISP real.
 
 ## Estructura del Repositori
 
