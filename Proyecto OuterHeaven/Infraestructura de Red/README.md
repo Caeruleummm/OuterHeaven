@@ -1,7 +1,7 @@
 ### chr-ont
 
 1. **Creacion de la WAN**
-   ![](.\capturas\chr-ont\1.CreaciondelaWAN.png)
+   ![](..\Extras\capturas\chr-ont\1.CreaciondelaWAN.png)
 
 2. **Bridge y OLT**
    ![](.\capturas\chr-ont\2.BridgevOLT.png)
