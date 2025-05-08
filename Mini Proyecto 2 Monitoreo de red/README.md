@@ -29,7 +29,7 @@ Aquest mini projecte desplega un sistema complet de **monitorització activa i t
 - Configuració de dependències i horaris d’actuació.
 
 ## Captures i Dashboards
-Consulta `Capturas i demostracions/` per veure taulers de control, proves de rendiment i captures reals d’anàlisi.
+Consulta el document final del projecte i les demos per veure taulers de control, proves de rendiment i captures reals d’anàlisi.
 
 ---
 
