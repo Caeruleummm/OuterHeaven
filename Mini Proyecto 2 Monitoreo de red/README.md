@@ -1,4 +1,4 @@
-# Mini Projecte 2 - Monitorització de Xarxa amb Zabbix i NetData
+# Mini Projecte 2 - Monitorització de Xarxa amb Zabbix
 
 Aquest mini projecte desplega un sistema complet de **monitorització activa i temps real** per a l’entorn OuterHeaven, fent servir la potència de **Zabbix**.
 
