@@ -17,13 +17,15 @@
 
 ## Estructura del Repositori
 
-- `/proxmox-cluster/` → Configuració del clúster de virtualització Proxmox VE amb alta disponibilitat.
-- `/ceph-storage/` → Configuració detallada del clúster Ceph i emmagatzematge compartit.
-- `/monitoring/` → Implementació de Zabbix, NetData i integració amb alertes.
-- `/dns-ha/` → Clúster DNS en alta disponibilitat amb Docker Swarm.
-- `/ansible/` → Playbooks i automatitzacions diverses amb Ansible.
-- `/backups/` → Sistema de còpies de seguretat automatitzades amb Proxmox Backup Server i Rclone.
-- `/cpd-design/` → Disseny físic i lògic del centre de processament de dades (CPD).
+En aquest repositori trovaras la seguent estructura e informacio del projecte.
+
+- `/Demos/` → Totes les demostracions dels serveis i configuracions mes importants en video.
+- `/Diagrames/` → Tots els diagrames/esquemas del projecte.
+- `/Extra/` → Captures de les configuracions mes importants del projecte i com reparar un cluster de Proxmox.
+- `/Mini Projecte 1 Proxmox/` → Recursos e informacio sobre el mini projecte de Proxmox .
+- `/Mini Projecte 2 Monitoritatge de Xarxa/` → Recursos e informacio sobre el mini projecte de Monitoritatge de Xarxa.
+- `/Mini Projecte 3 CPD/` → Recursos e informacio sobre el mini projecte de CPD.
+- `/Projecte OuterHeaven/` → Recursos e informacio sobre tot el projecte personal, diagrames, configuracions, eines a servir, infraestructura de xarxa i sistemas etc.
 
 ## Principals Tecnologies Utilitzades
 
@@ -33,14 +35,21 @@
 - **Ansible** per a desplegaments automatitzats i backups
 - **Docker Swarm** per serveis com DNS en alta disponibilitat
 - **Rclone** per còpies en núvol
+- **Bash i Yml** Per a scripts de sistema i de ansible
 - **CPD dissenyat amb redundància elèctrica i refrigeració InRow**
+- **LucidChart i DrawIo** Per a la creacio de diagrames i esquemas.
+- **Cloudfare** Com a proxy invers i firewall
+- **Mikrotik** Per a la creacio i configuracio d'hotels, clients particulars , PPPOE, perfils de velocitat i Radius.
+- **Wordpress i Ghost** Per a pagines web de l'empresa i d'un hotel.
+- **Trello** Per la gestio de tasques entre els membres del grup.
+- **TailScale** Com a VPN per accedir a Proxmox i la definicio d'Acl, firewall i subxarxes.
 
 ## Estructura del Projecte
 
 - `Mini Projecte 1 Proxmox`: Instal·lació, configuració i entorn de virtualització
-- `Mini Projecte 2 Monitoratge de xarxa`: Monitorització amb Zabbix
+- `Mini Projecte 2 Monitoratge de xarxa`: Monitorització amb Zabbix, alertes, notificacions a Telegram i correu i Grafics.
 - `Mini Projecte 3 CPD`: Infraestructura física, racks, refrigeració, disseny elèctric, ISP
-- `Projecte OuterHeaven`: Implementació final dels serveis en entorn realista ( Infraestructura de sistemas i serveis, Seguretat y HA, Clusters,
+- `Projecte OuterHeaven`: Implementació final dels serveis en entorn virtualitzat ( Infraestructura de sistemas i serveis, Seguretat y HA, Clusters,
 balanceig de carrega, infraestructura ISP i Infraestructura de Xarxa general).
 
 ## Autors i Agraïments
