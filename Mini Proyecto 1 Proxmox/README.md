@@ -22,11 +22,3 @@ altament escalable i amb suport nadiu per a alta disponibilitat, gestió de VM/C
 ### 3. Configuració de Xarxa
 - Explicacio Teorica de Bridges i altres adaptadors de xarxa
 - Teoria Bonding per millorar ample de banda i redundància.
-
----
-
-## 📎 Documents relacionats
-
-- `instalar proxmox/`: Captures i processos d’instal·lació manual.
-- `RepararCluster.md`: Resolució d’errors en Corosync o nodes no sincronitzats.
-- `ProxmoxYTrueNAS/`: Configuració combinada de Proxmox i emmagatzematge TrueNAS.
