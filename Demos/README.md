@@ -55,13 +55,13 @@ Este directorio recoge una serie de vídeos demostrativos que validan funcionali
 
 ---
 
-## Finalitat de les Demos
+## Finalidad de las Demos
 
-Aquest conjunt de vídeos té com a objectiu demostrar que l’entorn Outer Heaven:
-- Funciona com una infraestructura real d’un ISP.
-- Respon correctament davant escenaris de fallida i recuperació.
-- Automatitza processos clau com backups, migracions i notificacions.
-- Garanteix un entorn monitoritzat i auto-recuperable.
+Este conjunto de vídeos tiene como objetivo demostrar que el entorno Outer Heaven:
+- Funciona como una infraestructura real de un ISP.
+- Responde correctamente ante escenarios de fallo y recuperación.
+- Automatiza procesos clave como backups, migraciones y notificaciones.
+- Garantiza un entorno monitorizado y autorrecuperable.
 
-Els vídeos constitueixen **proves d’acceptació** i serveixen de referència per avaluar el projecte des de la perspectiva de fiabilitat, manteniment i escalabilitat.
+Los vídeos constituyen **pruebas de aceptación** y sirven de referencia para evaluar el proyecto desde la perspectiva de fiabilidad, mantenimiento y escalabilidad.
 
