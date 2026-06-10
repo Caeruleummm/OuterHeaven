@@ -1,77 +1,77 @@
 
-# Esquemes i Diagrames del Projecte Outer Heaven
+# Esquemas y Diagramas del Proyecto Outer Heaven
 
-Aquest directori conté els **diagrames funcionals, lògics i físics** que representen l'arquitectura, la virtualització, la infraestructura física, l'automatització i el sistema de monitoratge del projecte Outer Heaven. Cada element gràfic ha estat elaborat per oferir una visió clara i detallada dels components clau del sistema, i s'utilitza com a referència tant per al desplegament com per a la documentació.
+Este directorio contiene los **diagramas funcionales, lógicos y físicos** que representan la arquitectura, la virtualización, la infraestructura física, la automatización y el sistema de monitorización del proyecto Outer Heaven. Cada elemento gráfico ha sido elaborado para ofrecer una visión clara y detallada de los componentes clave del sistema, y se utiliza como referencia tanto para el despliegue como para la documentación.
 
 ---
 
 ## Infraestructura Física i CPD
 
 ### `Esquema_Racks_Frontal_OH.png`
-Vista frontal dels racks del CPD, mostrant la distribució vertical dels equips per funció: servidors, switchos, SAI i unitats de comunicació. Es diferencia clarament el rack de **processament** del de **comunicació**.
+Vista frontal de los racks del CPD, mostrando la distribución vertical de los equipos por función: servidores, switches, SAI y unidades de comunicación. Se diferencia claramente el rack de **procesamiento** y el de **comunicacion**.
 
 ### `diagramaFrontalCPD_OH_Bruto.png`  
-Versió preliminar del frontal de racks, feta per a planificació inicial. Mostra etiquetatge físic i posicionament estimat de components.
+Versión preliminar del frontal de racks, realizada para la planificación inicial. Muestra el etiquetado físico y el posicionamiento estimado de los componentes.
 
 ### `CPD_Clase_Diagrama_Bruto.drawio.png`
-Esquema inicial del CPD creat durant les sessions de planificació.
+Esquema inicial del CPD creado durante las sesiones de planificación.
 
 ---
 
-## Infraestructura Virtual i Proxmox
+## Infraestructura Virtual y Proxmox
 
 ### `DiagramaInfraestructura_Virtual_Proxmox_OH.drawio`  
-Arxiu editables `.drawio` amb la infraestructura virtual completa desplegada amb Proxmox: nodes del clúster, interconnexions, Ceph i relacions entre màquines.
+Archivos editables `.drawio` con la infraestructura virtual completa desplegada con Proxmox: nodos del clúster, interconexiones, Ceph y relaciones entre máquinas.
 
 ### `DiagramaInfraestructura_Virtual_Proxmox_OH.drawio.png`  
-Versió exportada en imatge del diagrama anterior, pensada per a ser inclosa en documentació impresa o PDF.
+Versión exportada en imagen del diagrama anterior, pensada para ser incluida en documentación impresa o PDF.
 
 ### `ServerDiagramOH.png`  
-Diagrama general d’interconnexió entre hipervisors, serveis essencials, docker Swarm, clients i serveis de monitoratge. Mostra tant la connexió lògica com l’assignació de rols per màquina.
+Diagrama general de interconexión entre hipervisores, servicios esenciales, Docker Swarm, clientes y servicios de monitorización. Muestra tanto la conexión lógica como la asignación de roles por máquina.
 
 ---
 
-## Arquitectura Global del Projecte
+## Arquitectura Global del Proyecto
 
 ### `Diagrama General OH - Página 1.png`
-Esquema integrat de tot el projecte: entorn virtual, CPD físic, serveis desplegats, canals de monitoratge i fluxos de dades. És el diagrama de més alt nivell i resumeix Outer Heaven com a infraestructura ISP simulada.
+Esquema integrado de todo el proyecto: entorno virtual, CPD físico, servicios desplegados, canales de monitorización y flujos de datos. Es el diagrama de más alto nivel y resume Outer Heaven como infraestructura ISP simulada.
 
 ---
 
-## Automatització i Backups (Ansible)
+## Automatitzacion y Backups (Ansible)
 
 ### `ansible_copiasSeguretat_automatitzacio_OH.drawio`  
-Diagrama del procés d'automatització de còpies de seguretat amb Ansible, mostrant els passos d’execució, validació, pujada al núvol i esborrat temporal local.
+Diagrama del proceso de automatización de copias de seguridad con Ansible, mostrando los pasos de ejecución, validación, subida a la nube y borrado temporal local.
 
 ### `ansible_copiasSeguretat_automatitzacio_OH.drawio.png`  
-Versió exportada del diagrama anterior en format imatge.
+Versión exportada del diagrama anterior en formato imagen.
 
 ---
 
-## Monitoratge i Alertes
+## Monitorizacion y Alertas
 
 ### `diagramaMonitorizacion_OH.drawio`  
-Arquitectura de monitoratge amb Zabbix, NetData i agents. Es mostra com es distribueixen les funcions de monitoratge, el flux de dades cap al servidor central i la jerarquia de triggers i alertes.
+Arquitectura de monitorización con Zabbix, NetData y agentes. Se muestra cómo se distribuyen las funciones de monitorización, el flujo de datos hacia el servidor central y la jerarquía de triggers y alertas.
 
 ### `diagramaMonitorizacion_OH.drawio.png`  
-Versió visual exportada del mateix esquema, per incloure a informes.
+Versión visual exportada del mismo esquema, para incluir en informes.
 
 ### `diagrama_alertas_notificacions_OH.drawio`  
-Flux d’alertes i notificacions. Mostra quines accions es generen davant d’un esdeveniment i  com es comuniquen (Telegram, Discord, correu) i si hi ha acció correctiva automàtica.
+Flujo de alertas y notificaciones. Muestra qué acciones se generan ante un evento y cómo se comunican (Telegram, Discord, correo) y si hay acción correctiva automática.
 
 ### `diagrama_alertas_notificacions_OH.drawio.png`  
-Versió visual del flux anterior.
+Versión visual del flujo anterior.
 
 ---
 
-## Provisionament i Gestió d'Usuaris
+## Provisionamiento y Gestion de Usuarios
 
 ### `PPPChart1.png`
-Diagrama de flux del servei de provisioning PPPoE per a clients hotelers, incloent connexió, autenticació, assignació IP, i control d’ample de banda.
+Diagrama de flujo del servicio de provisioning PPPoE para clientes hoteleros, incluyendo conexión, autenticación, asignación de IP y control de ancho de banda.
 
 ---
 
-## Format i Edició
+## Formato y Edicion
 
-- Els fitxers `.drawio` han sigut creats a traves de: [diagrams.net](https://www.diagrams.net/).
+- Los archivos `.drawio` han sido creados a traves de: [diagrams.net](https://www.diagrams.net/).
 
