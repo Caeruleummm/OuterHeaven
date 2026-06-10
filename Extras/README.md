@@ -1,6 +1,6 @@
-# Recursos Addicionals – Captures i Configuracions
+# Recursos Adicionales – Capturas i Configuraciones
 
-Aquest directori conté un conjunt de **captures de pantalla i documents gràfics** utilitzats durant el desenvolupament, instal·lació i configuració de diferents serveis i entorns relacionats amb el projecte Outer Heaven. Es tracta d’informació complementària no inclosa en altres seccions principals, però que resulta útil com a **referència visual** i per validar la **traçabilitat del projecte**.
+Este directorio contiene un conjunto de **capturas de pantalla y documentos graficos** utilitzats durant el desenvolupament, instal·lació i configuració de diferents serveis i entorns relacionats amb el projecte Outer Heaven. Es tracta d’informació complementària no inclosa en altres seccions principals, però que resulta útil com a **referència visual** i per validar la **traçabilitat del projecte**.
 
 ---
 
