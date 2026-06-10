@@ -1,68 +1,68 @@
 # Outer Heaven - Infraestructura ISP Simulada
 
-**Outer Heaven** és un projecte final que simula una infraestructura pròpia d’un ISP orientat al sector hoteler i residencial. El projecte integra tecnologies reals empleades a l’entorn professional per oferir serveis de connectivitat mantenint una virtualització amb alta disponibilitat, monitorització avançada i automatització completa (simulacio). Aquest projecte es molt escalable amb un presupost adecuat per als serveis oferits y desplegats ( en aquest cast el presupost d'aquest projecte a sigut nul).
+**Outer Heaven** Es un proyecto que busca imitar una infraestructura propia de un ISP orientado al sector hotelero y residencial. El proyecto integra tecnologías reales empleadas en el entorno profesional para ofrecer servicios de conectividad manteniendo una infraestructura virtualizada con alta disponibilidad, monitorización avanzada y automatización completa. Este proyecto es muy escalable con un presupuesto adecuado para los servicios ofrecidos y desplegados.
 
-## Objectius Principals
+## Objectivos Principales
 
-- Desplegar una infraestructura amb virtualització de tipus 1 amb **Proxmox VE** en clúster.
-- Implementar **alta disponibilitat** (HA) de màquines virtuals (VM/CT) amb migracions en calent.
-- Utilitzar **Ceph** com a clúster d’emmagatzematge compartit i balanceig de càrrega de discos.
-- Automatitzar la configuració i gestió de serveis amb **Ansible**.
-- Monitoritzar en temps real amb **Zabbix**, **NetData** i integració amb sistemes de notificació.
-- Implementar serveis de **DNS intern en alta disponibilitat** amb Docker Swarm.
-- Proveir un sistema funcional de **provisionament PPPoE** a clients particulars i hotels simulats.
-- Gestionar còpies de seguretat locals i en el núvol de forma automatitzada (Ansible).
-- Implementar un sistema **RADIUS** per a Hotels Simulats.
-- Implementar un sistema de limitacio de velocitat d'amplada de banda imitant un ISP real.
+- Desplegar una infraestructura con virtualización de tipo 1 con **Proxmox VE** en clúster.
+- Implementar **alta disponibilidad** (HA) de máquinas virtuales (VM/CT) con migraciones en caliente.
+- Utilizar **Ceph** como clúster de almacenamiento compartido y balanceo de carga de discos.
+- Automatizar la configuración y gestión de servicios con **Ansible**.
+- Monitorizar en tiempo real con **Zabbix**, **NetData** e integración con sistemas de notificación.
+- Implementar servicios de **DNS interno en alta disponibilidad** con Docker Swarm.
+- Proveer un sistema funcional de **aprovisionamiento PPPoE** para clientes particulares y hoteles simulados.
+- Gestionar copias de seguridad locales y en la nube de forma automatizada y cambios de configuracion masivos (**Ansible**).
+- Implementar un sistema **RADIUS** para Hoteles Simulados.
+- Implementar un sistema de limitación de velocidad de ancho de banda imitando un ISP real.
 
-## Estructura del Repositori
+## Estructura del Repositorio 
 
 En aquest repositori trovaras la seguent estructura e informacio del projecte.
 
-- `/Demos/` → Totes les demostracions dels serveis i configuracions mes importants en video.
-- `/Diagrames/` → Tots els diagrames/esquemas del projecte.
-- `/Extra/` → Captures de les configuracions mes importants del projecte i com reparar un cluster de Proxmox.
-- `/Mini Projecte 1 Proxmox/` → Recursos e informacio sobre el mini projecte de Proxmox .
-- `/Mini Projecte 2 Monitoritatge de Xarxa/` → Recursos e informacio sobre el mini projecte de Monitoritatge de Xarxa.
-- `/Mini Projecte 3 CPD/` → Recursos e informacio sobre el mini projecte de CPD.
-- `/Projecte OuterHeaven/` → Recursos e informacio sobre tot el projecte personal, diagrames, configuracions, eines a servir, infraestructura de xarxa i sistemas etc.
+- `/Demos/` → Todas las demostraciones de los servicios y configuraciones más importantes en vídeo.
+- `/Diagrames/` → Todos los diagramas/esquemas del proyecto.
+- `/Extra/` → Capturas de las configuraciones más importantes del proyecto y cómo reparar un clúster de Proxmox.
+- `/Mini Projecte 1 Proxmox/` → Recursos e información sobre el mini proyecto de Proxmox.
+- `/Mini Projecte 2 Monitoritatge de Xarxa/` → Recursos e información sobre el mini proyecto de Monitoritatge de Xarxa.
+- `/Mini Projecte 3 CPD/` → Recursos e información sobre el mini proyecto de CPD.
+- `/Projecte OuterHeaven/` → Recursos e información sobre todo el proyecto personal, diagramas, configuraciones, herramientas a utilizar, infraestructura de red y sistemas, etc.
 
-## Principals Tecnologies Utilitzades
+## Principales Tecnologías Utilizadas
 
-- **Proxmox VE** amb clúster i migracions en calent
-- **Ceph** com a emmagatzematge compartit amb balanceig de càrrega
-- **Zabbix + NetData** per monitorització activa
-- **Ansible** per a desplegaments automatitzats i backups
-- **Docker Swarm** per serveis com DNS en alta disponibilitat
-- **Rclone** per còpies en núvol
-- **Bash i Yml** Per a scripts de sistema i de ansible
-- **CPD dissenyat amb redundància elèctrica i refrigeració InRow**
-- **LucidChart i DrawIo** Per a la creacio de diagrames i esquemas.
-- **Cloudfare** Com a proxy invers i firewall
-- **Mikrotik** Per a la creacio i configuracio d'hotels, clients particulars , PPPOE, perfils de velocitat i Radius.
-- **Wordpress i Ghost** Per a pagines web de l'empresa i d'un hotel.
-- **Trello** Per la gestio de tasques entre els membres del grup.
-- **TailScale** Com a VPN per accedir a Proxmox i la definicio d'Acl, firewall i subxarxes.
+- **Proxmox VE** con clúster y migraciones en caliente
+- **Ceph** como almacenamiento compartido con balanceo de carga
+- **Zabbix + NetData** para monitorización activa
+- **Ansible** para despliegues automatizados y backups
+- **Docker Swarm** para servicios como DNS en alta disponibilidad
+- **Rclone** para copias en la nube
+- **Bash i Yml** Para scripts de sistema y de ansible
+- **CPD disseñado con redundancia elèctrica y refrigeracion InRow**
+- **LucidChart i DrawIo** Para la creación de diagramas y esquemas.
+- **Cloudfare** Como proxy inverso y firewall
+- **Mikrotik** Para la creación y configuración de hoteles, clientes particulares, PPPOE, perfiles de velocidad y Radius.
+- **Wordpress i Ghost** Para páginas web de la empresa y de un hotel.
+- **Trello** Para la gestión de tareas entre los miembros del grupo.
+- **TailScale** Como VPN para acceder a Proxmox y la definición de ACL, firewall y subredes.
 
-## Estructura del Projecte
+## Estructura del Proyecto
 
-- `Mini Projecte 1 Proxmox`: Instal·lació, configuració i entorn de virtualització
-- `Mini Projecte 2 Monitoratge de xarxa`: Monitorització amb Zabbix, alertes, notificacions a Telegram i correu i Grafics.
-- `Mini Projecte 3 CPD`: Infraestructura física, racks, refrigeració, disseny elèctric, ISP
-- `Projecte OuterHeaven`: Implementació final dels serveis en entorn virtualitzat ( Infraestructura de sistemas i serveis, Seguretat y HA, Clusters,
-balanceig de carrega, infraestructura ISP i Infraestructura de Xarxa general).
+- `Mini Projecte 1 Proxmox`: Instalación, configuración y entorno de virtualización
+- `Mini Projecte 2 Monitoratge de xarxa`: Monitorización con Zabbix, alertas, notificaciones a Telegram y correo y Gráficos.
+- `Mini Projecte 3 CPD`: Infraestructura física, racks, refrigeración, diseño eléctrico, ISP
+- `Projecte OuterHeaven`: Implementación final de los servicios en entorno virtualizado ( Infraestructura de sistemas y servicios, Seguridad y HA, Clústeres, balanceo de carga, infraestructura ISP e Infraestructura de Red general).
 
-## Autors i Agraïments
+## Autores i Agradecimientos
 
 Projecte desenvolupat per Unai Conus i Victor Redel, amb el suport de:
 
-- Orvis360 i Pedro Corregidor (infraestructura i material tècnic)
-- Víctor Redel i EquemmFoundation (hardware físic dedicat)
+- Orvis360 y Pedro Corregidor (infraestructura y material técnico)
+- Víctor Redel y EquemmFoundation (hardware físico dedicado)
 
 PD:
 
-Volem expressar el nostre sincer agraïment a Orvis360 i al senyor Pedro Corregidor per la seva valuosa col·laboració en el aportament de coneixements del nostre projecte. La seva ajuda en la proposta i el disseny de la infraestructura de xarxa, així com la cessió de materials tècnics necessaris, ha estat essencial per assolir els objectius marcats.
-També volem agrair especialment a Víctor Redel i a EquemmFoundation per haver patrocinat i facilitat un servidor físic dedicat, que ens ha permès desplegar un entorn complert amb Proxmox i dur a terme tot el desenvolupament del projecte dins d’un context realista i professional.
-Sense el vostre suport, aquest projecte no hauria estat possible en les mateixes condicions de qualitat i aprenentatge.
+Queremos expresar nuestro sincero agradecimiento a Orvis360 y al señor Pedro Corregidor por su valiosa colaboración en la aportación de conocimientos de nuestro proyecto. Su ayuda en la propuesta y el diseño de la infraestructura de red, así como la cesión de materiales técnicos necesarios, ha sido esencial para alcanzar los objetivos marcados.
+
+También queremos agradecer especialmente a Víctor Redel y a EquemmFoundation por haber patrocinado y facilitado un servidor físico dedicado, que nos ha permitido desplegar un entorno completo con Proxmox y llevar a cabo todo el desarrollo del proyecto dentro de un contexto realista y profesional.
+Sin vuestro apoyo, este proyecto no habría sido posible en las mismas condiciones de calidad y aprendizaje.
 
 ---
