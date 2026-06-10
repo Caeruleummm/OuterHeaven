@@ -1,57 +1,57 @@
 
 # Demos de Funcionament – Outer Heaven
 
-Aquest directori recull una sèrie de vídeos demostratius que validen funcionalitats clau del projecte **Outer Heaven** en escenaris pràctics. Cada vídeo mostra accions realitzades en temps real sobre la infraestructura simulada, amb l’objectiu de verificar l’estabilitat, l'automatització i la capacitat de recuperació del sistema.
+Este directorio recoge una serie de vídeos demostrativos que validan funcionalidades clave del proyecto **Outer Heaven** en escenarios prácticos. Cada vídeo muestra acciones realizadas en tiempo real sobre la infraestructura simulada, con el objetivo de verificar la estabilidad, la automatización y la capacidad de recuperación del sistema.
 
 ---
 
-## Índex de Demos
+## Indice de Demos
 
-### Automatització i Còpies de Seguretat
+### Automatitzacion y Copias de Seguridad
 
 - **CopiaSeguretatAutomatitzada.wmv**  
-  Execució automatitzada d’una còpia de seguretat local cada 3 dies a las 3 am (exemple).
+  Ejecución automatizada de una copia de seguridad local cada 3 días a las 3 am (ejemplo).
 
 - **CrearCopiaSeguretat.wmv**  
-  Realització semi-manual d’una còpia de seguretat a través d'un script d'ansible.
+  Realización semi-manual de una copia de seguridad a través de un script de ansible.
 
 - **CrearSnapshot.wmv**  
-  Generació d’un snapshot instantani per a una màquina virtual a traves d'un script d'ansible.
+  Generación de un snapshot instantáneo para una máquina virtual a través de un script de ansible.
 
 - **RestauracioInstantanea.wmv**  
-  Restauració immediata d’una VM a partir d’un backup creat anteriorment.
+  Restauración inmediata de una VM a partir de un backup creado anteriormente.
 
 - **RestauracionCopiaSeguridad.wmv**  
-  Recuperació d’un entorn complet després de fer canvis a una VM (demostracio).
+  Recuperación de un entorno completo después de hacer cambios a una VM (demostración).
 
 ---
 
-### Alta Disponibilitat i Migracions
+### Alta Disponibilidad y Migraciones
 
 - **MigracioCalent.wmv**  
-  Migració en calent d’una màquina virtual entre dos nodes Proxmox, sense downtime ni aturacio del servei.
+  Migración en caliente de una máquina virtual entre dos nodos Proxmox, sin downtime ni interrupción del servicio.
 
 - **MigracioVMCaidaNode.wmv**  
-  Simulació de caiguda d’un node i migració automàtica de la màquina cap a un node disponible mitjançant sistema HA.
+    Simulación de caída de un nodo y migración automática de la máquina hacia un nodo disponible mediante sistema HA.
 
 ---
 
-### Monitorització i Alertes
+### Monitoritzacion y Alertas
 
 - **AlertaZabbix.wmv**  
-  Recepció i gestió d’una alerta generada per Zabbix en cas de caiguda d'alguna VM del Proxmox i notificacio per correu i telegram.
+  Recepción y gestión de una alerta generada por Zabbix en caso de caída de alguna VM de Proxmox y notificación por correo y Telegram.
 
 - **SolucioAlertaZabbix.wmv**  
-  Acció correctiva automatitzada i resolució de l’alerta generada anteriorment.
+  Acción correctiva automatizada y resolución de la alerta generada anteriormente.
 
 - **AlertaNetDataNode.wmv**  
-  Detectació en temps real d'una caiguda d'un node de proxmox i la notificacio per discord.
+  Detección en tiempo real de una caída de un nodo de Proxmox y la notificación por Discord.
 
 - **RecuperacioAlertaNetData.wmv**  
-  Normalització dels valors monitoritzats i confirmació automàtica de la recuperació de l’estat del node.
+  Normalización de los valores monitorizados y confirmación automática de la recuperación del estado del nodo.
 
 - **AfegirClientZabbix.wmv**  
-  Procés complet per afegir un nou host al sistema de monitoratge Zabbix, amb assignació de plantilla i validació d’estat.
+  Proceso completo para añadir un nuevo host al sistema de monitorización Zabbix, con asignación de plantilla y validación de estado.
 
 ---
 
