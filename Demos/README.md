@@ -1,5 +1,5 @@
 
-# Demos de Funcionament – Outer Heaven
+# Demos de Funcionamiento – Outer Heaven
 
 Este directorio recoge una serie de vídeos demostrativos que validan funcionalidades clave del proyecto **Outer Heaven** en escenarios prácticos. Cada vídeo muestra acciones realizadas en tiempo real sobre la infraestructura simulada, con el objetivo de verificar la estabilidad, la automatización y la capacidad de recuperación del sistema.
 
