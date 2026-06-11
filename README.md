@@ -53,7 +53,7 @@ En aquest repositori trovaras la seguent estructura e informacio del projecte.
 
 ## Autores i Agradecimientos
 
-Projecte desenvolupat per Unai Conus i Victor Redel, amb el suport de:
+Proyecto desarollado por Unai Conus i Victor Redel, con el soporte de:
 
 - Orvis360 y Pedro Corregidor (infraestructura y material técnico)
 - Víctor Redel y EquemmFoundation (hardware físico dedicado)
