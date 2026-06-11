@@ -17,7 +17,7 @@
 
 ## Estructura del Repositorio 
 
-En aquest repositori trovaras la seguent estructura e informacio del projecte.
+En este repositorio encontraras la siguiente estructura e informacion del proyecto.
 
 - `/Demos/` → Todas las demostraciones de los servicios y configuraciones más importantes en vídeo.
 - `/Diagrames/` → Todos los diagramas/esquemas del proyecto.
