@@ -73,23 +73,23 @@ Es el origen del sistema de archivos compartidos que alimenta Proxmox y otros se
 
 ## `RepararCluster.md`
 
-Document amb instruccions pas a pas per a solucionar errors freqüents de sincronització i quorum dins el clúster de Proxmox. Inclou:
+Documento con instrucciones paso a paso para solucionar errores frecuentes de sincronización y quórum dentro del clúster de Proxmox. Incluye:
 
-- Reinici de serveis.
-- Comprovació de connexions Corosync.
-- Reassignació de nodes i forçat de quorum.
+- Reinicio del servicio.
+- Comprobación de conexiones Corosync.
+- Reasignación de nodos y forzado de quórum.
 
-Aquest fitxer és essencial per garantir la resiliència del clúster.
+Este archivo es esencial para garantizar la resiliencia del clúster.
 
 ---
 
-## Notes finals
+## Notas finales
 
-Aquest apartat funciona com a **anex visual**, complementari a les fases principals del projecte, i reflecteix el procés real de desplegament.
-Totes les captures tenen valor com a evidència de configuració i execució tècnica.
+Este apartado funciona como **anex visual**, complementario a las fases principales del proyecto, y refleja el proceso real de despliegue.
+Todas las capturas tienen valor como evidencia de configuración y ejecución técnica.
 
-Aquesta seccio conte captures que es consideren importants, es per aixo que no es troba tot el annex complet, per visualitzar tota la instalacio, configuracio i demostracio tota la infraestructura
-es recomena consultar el document final del projecte que recull tota aquesta informacio dels annexos.
+Esta sección contiene capturas que se consideran importantes, es por esto que no se encuentra todo el anexo completo, para visualizar toda la instalación, configuración y demostración de toda la infraestructura
+se recomienda consultar el documento final del proyecto que recoge toda esta información de los anexos.
 
-S’hi pot accedir per consultar dubtes específics, comparar configuracions o reutilitzar estructures en futurs projectes.
+Se puede acceder para consultar dudas específicas, comparar configuraciones o reutilizar estructuras en futuros proyectos.
 
