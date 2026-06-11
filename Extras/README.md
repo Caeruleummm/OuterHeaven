@@ -4,70 +4,70 @@ Este directorio contiene un conjunto de **capturas de pantalla y documentos graf
 
 ---
 
-## Captures de Configuració de Serveis
+## Capturas de Configuracion de Servicios
 
-Aquest apartat inclou proves i captures relacionades amb:
+Este apartado incluye pruebas y capturas relacionadas con:
 
-- Configuració de servidors DHCP.
-- Configuració de perfils PPPoE.
-- Pools d’adreces IP i gestió de VLANs.
-- Connexió entre OLT i bridges.
-- Serveis PPP Server, secrets, clients i validació de connexions.
+- Configuración de servidores DHCP.
+- Configuración de perfiles PPPoE.
+- Pools de direcciones IP y gestión de VLANs.
+- Conexión entre OLT y bridges.
+- Servicios PPP Server, secrets, clientes y validación de conexiones.
 
-Aquesta informació és clau per entendre com es va implementar el provisioning de clients i la segmentació de serveis dins la infraestructura de xarxa.
-
----
-
-## `chr-ont/` – Simulació i gestió de l’ONT/OLT
-
-Captures relacionades amb:
-
-- Creació de bridges entre interfícies.
-- Assignació de pools IP públics.
-- Perfils de limitació d’ample de banda.
-- Configuració del servidor PPPoE i secrets.
-- Validació final de connexió des del client.
-
-Aquestes proves representen la part més propera al comportament real d’un ISP, amb una estructura modular i escalable per a futurs clients.
+Esta información es clave para entender cómo se implementó el provisioning de clientes y la segmentación de servicios dentro de la infraestructura de red.
 
 ---
 
-## `hotelejemplo/` – Exemple de client hoteler
+## `chr-ont/` – Simulacion y gestion de la ONT/OLT
 
-Inclou captures de configuració de xarxa per a un entorn hoteler:
+Capturas relacionadas con:
 
-- Creació de VLANs específiques.
-- Pools DHCP per a usuaris finals.
-- Configuració de NAT (masquerading).
-- Validació des de màquines virtuals Windows.
-- Assignació IP i visibilitat interna.
+- Creación de bridges entre interfaces.
+- Asignación de pools IP públicos.
+- Perfiles de limitación de ancho de banda.
+- Configuración del servidor PPPoE y secretos.
+- Validación final de conexión desde el client.
+
+Estas pruebas representan la parte más cercana al comportamiento real de un ISP, con una estructura modular y escalable para futuros clientes.
+
+---
+
+## `hotelejemplo/` – Ejemplo de un cliente Hotelero
+
+Incluye capturas de configuración de red para un entorno hotelero:
+
+- Creación de VLANs específicas.
+- Pools DHCP para usuarios finales.
+- Configuración de NAT (masquerading).
+- Validación desde máquinas virtuales Windows.
+- Asignación IP y visibilidad interna.
 
 Serveix com a prova pilot de la segmentació d’un entorn hoteler típic dins la infraestructura simulada.
 
 ---
 
-## `instalar proxmox/` – Instal·lació de Proxmox VE
+## `instalar proxmox/` – Instalacion de Proxmox VE
 
-Captures detallades del procés d’instal·lació del hipervisor Proxmox VE:
+Capturas detalladas del proceso de instalación del hipervisor Proxmox VE:
 
-- Elecció de disc i sistema de fitxers ZFS.
-- Configuració inicial de la IP de gestió.
-- Instal·lació GUI i accés al node principal.
+- Elección de disco y sistema de archivos ZFS.
+- Configuración inicial de la IP de gestión.
+- Instalación GUI y acceso al nodo principal.
 
-Aquest apartat ajuda a documentar el punt de partida per a la virtualització del projecte.
+Este apartado ayuda a documentar el punto de partida para la virtualización del proyecto.
 
 ---
 
-## `instalar truenas/` – Instal·lació de TrueNAS SCALE
+## `instalar truenas/` – Instalación de TrueNAS SCALE
 
-Procés complet d’instal·lació de TrueNAS com a sistema d’emmagatzematge:
+Proceso completo de instalación de TrueNAS como sistema de almacenamiento:
 
-- Creació del pool principal.
-- Configuració de datasets i permisos.
-- Activació de serveis NFS, SMB i iSCSI.
-- Preparació de recursos compartits per a la infraestructura virtual.
+- Creación del pool principal.
+- Configuración de datasets y permisos.
+- Activación de servicios NFS, SMB e iSCSI.
+- Preparación de recursos compartidos para la infraestructura virtual.
 
-És l’origen del sistema de fitxers compartits que alimenta Proxmox i altres serveis crítics.
+Es el origen del sistema de archivos compartidos que alimenta Proxmox y otros servicios críticos.
 
 ---
 
