@@ -16,49 +16,49 @@ Este miniproyecto describe el diseño físico y lógico del CPD del proyecto Out
 ###  Estructura General del CPD
 
 - **Rack 1 (Procesamiento)**: Proxmox, TrueNAS, SAI.
-- **Rack 2 (Comuniacion)**: Switchos, routers, ONU, fibra, passarel·les PPPoE.
-- **Separació funcional per evitar col·lapse tèrmic o elèctric.**
+- **Rack 2 (Comunicacion)**: Switches, routers, ONU, fibra, pasarelas PPPoE.
+- **Separacion funcional para evitar colapso termico o electrico.**
 
-###  Sistema de Refrigeració
+###  Sistema de Refrigeracion
 
-- Sistema **InRow** entre racks, amb distribució frontal i posterior.
+- Sistema **InRow** entre racks, con distribución frontal y posterior.
 - Arquitectura **Hot Aisle / Cold Aisle**.
-- Sensorització en 3 nivells (superior, mig i base) per cada rack.
-- Comparativa amb altres sistemes:
-  - InRow: alta eficiència, fàcil manteniment.
-  - Tradicional: menys control tèrmic.
-  - CRAC: alt cost i baixa flexibilitat.
-  - Refrigeració líquida: complexa i cara, poc recomanable per entorns petits.
+- Sensorizacion en 3 niveles (superior, medio y base) por cada rack.
+- Comparativa con otros sistemas:
+  - InRow: alta eficiencia, facil mantenimento.
+  - Tradicional: menos control termico.
+  - CRAC: alto coste y baja flexibilidad.
+  - Refrigeracion líquida: compleja y cara, poco recomanable para entornos pequeños.
 
-###  Sistema Elèctric i Redundància
+###  Sistema Electrico y Redundancia
 
-- Doble línia A/B alimentada per **SAI independents**.
-- Sistema de **Transferència Estàtica (STS)** per triar font elèctrica més estable.
-- Autonomia mínima de 10 minuts per apagada controlada (SCRAM).
-- Supervisió i gestió SNMP via Zabbix.
-- Comparativa d’equips:
+- Doble línia A/B alimentada por **SAI independientes**.
+- Sistema de **Transferència Estàtica (STS)** para escoger la fuente electrica mas estable.
+- Autonomia minima de 10 minutos para un apagado controlado (SCRAM).
+- Supervision y gestion SNMP via Zabbix.
+- Comparativa de equipos:
   - Eaton 9PX, APC SRT, Riello Sentinel Pro.
 
-###  Connexió a Internet
+###  Connexion a Internet
 
-- **Doble ISP** amb 10Gb/s cadascun (Telefónica i Adamo/Orange).
-- Load Balancing entre proveïdors mitjançant rutes diferenciades.
-- Configuració de política de failover automàtic.
-- Assignació d’IP públiques per a serveis diferenciats.
-- Integració amb switch core i router de distribució.
+- **Doble ISP** con 10Gb/s cada uno (Telefónica i Adamo/Orange).
+- Load Balancing entre proveedores mediante rutas diferenciadas.
+- Configuracion de politicas de failover automaticas.
+- Asignacion de IP publicas para servicios diferenciados.
+- Integracion con switch core y router de distribucion.
 
 ---
 
-## Subprojectes
+## Subproyectos
 
-Aquest directori inclou diferents àrees del disseny CPD:
+Este directorio incluye diferentes areas del diseño del CPD:
 
-- `Cablatge de Xarxa/` → Xarxa estructurada per VLAN i zones.
-- `Sistema de Refrigeracion/` → Infraestructura tèrmica i sensors.
-- `Sistema Electric i Redundancia/` → Doble línia i SAI + STS.
-- `Distribucio dins dels racks/` → Posicionament físic dels equips.
-- `Comunicacio de Racks i distribucio Horizontal/` → Distribució entre racks.
-- `Esquema CPD i distribució/` → Plànol general i esquemes de flux.
+- `Cablatge de Xarxa/` → Red estructurada por VLAN y zonas.
+- `Sistema de Refrigeracion/` → Infraestructura tèrmica y sensores.
+- `Sistema Electric i Redundancia/` → Doble línia y SAI + STS.
+- `Distribucio dins dels racks/` → Posicionamiento físico de los equipos.
+- `Comunicacio de Racks i distribucio Horizontal/` → Distribucion entre racks.
+- `Esquema CPD i distribució/` → Plano general y esquemas de flujos.
 
 ---
 
