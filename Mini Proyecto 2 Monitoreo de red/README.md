@@ -1,40 +1,41 @@
-# Mini Projecte 2 - Monitorització de Xarxa amb Zabbix
+# Mini Proyecto 2 - Monitorizacion de Red con Zabbix
 
-Aquest mini projecte desplega un sistema complet de **monitorització activa i temps real** per a l’entorn OuterHeaven, fent servir la potència de **Zabbix**.
+Este miniproyecto despliega un sistema completo de **monitorizacion activo y en tiempo real** para el entorno OuterHeaven, utilizando la herramienta de **Zabbix y NetData**.
 
-## Objectius
+## Objetivos
 
-- Supervisar estat, rendiment i serveis dels nodes del clúster.
-- Detectar anomalies i enviar alertes automàtiques.
-- Visualitzar gràfiques detallades de rendiment per a cada dispositiu.
+- Supervisar estado, rendimiento y servicios de los nodos del clúster.
+- Detectar anomalías y enviar alertas automáticas.
+- Visualizar gráficas detalladas de rendimiento para cada dispositivo.
   
-## Eines seleccionades
+## Herramientas Seleccionadas
 
 | Eina     | Funció principal                      |
 |----------|----------------------------------------|
-| Zabbix   | Monitorització per agents, SNMP i traps|
-| Gmail    | Servidor de correu per rebre noticacions d'alertes   |
-| Telegram | Canal de notificació via Webhooks      |
+| Zabbix   | Monitorización por agentes, SNMP y traps|
+| NetData  | Monitoritzacion del cluster de Proxmox|
+| Gmail    | Servidor de correo para recibir notificaciones de alertas   |
+| Telegram | Canal de notificación vía Webhooks.     |
 
-## Contingut Tècnic
+## Contenido Tecnico
 
-### 1. Instal·lació de Zabbix
-- Instal·lació de frontend, base de dades i servidor.
-- Desplegament d’agents en nodes Linux i Windows.
-- Afegiment semi manual de hosts. 
+### 1. Instalacion de Zabbix
+- Instalación de frontend, base de datos y servidor.
+- Despliegue de agentes en nodos Linux y Windows.
+- Añadido semimanual de hosts.
 
-### 2. Llindars i Alertes
-- Creacio de Grafics.
-- Notificacions a Telegram i correu electrònic.
-- Configuració de dependències i horaris d’actuació.
+### 2. Umbrales y Alertas.
+- Creacion de Graficos.
+- Notificaciones en Telegram y correo electronico.
+- Configuracion de dependencias y horarios de actuacion.
 
-## Captures i Dashboards
-Consulta el document final del projecte i les demos per veure taulers de control, proves de rendiment i captures reals d’anàlisi.
+## Capturas y Dashboards
+Consulte el documento final del proyecto y las demostraciones para visualizar los paneles de control, las pruebas de rendimiento y las capturas de análisis
 
 ---
 
-## 📎 Propostes de millora futura
+## 📎 Propuestas de futuras mejoras
 
-- Integrar amb Prometheus + Grafana per escenaris empresarials.
-- Utilitzar discovery amb Ansible per adaptar configuracions automàticament.
-- Exportar informes de rendiment per setmana amb PDF automatitzat.
+- Integrar con Prometheus + Grafana para escenarios empresariales.
+- Utilizar discovery con Ansible para adaptar configuraciones automáticamente.
+- Exportar informes de rendimiento semanales en PDF automatizado.
