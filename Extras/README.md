@@ -85,7 +85,7 @@ Este archivo es esencial para garantizar la resiliencia del clúster.
 
 ## Notas finales
 
-Este apartado funciona como **anex visual**, complementario a las fases principales del proyecto, y refleja el proceso real de despliegue.
+Este apartado funciona como **anexo visual**, complementario a las fases principales del proyecto, y refleja el proceso real de despliegue.
 Todas las capturas tienen valor como evidencia de configuración y ejecución técnica.
 
 Esta sección contiene capturas que se consideran importantes, es por esto que no se encuentra todo el anexo completo, para visualizar toda la instalación, configuración y demostración de toda la infraestructura
