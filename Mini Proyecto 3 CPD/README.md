@@ -1,22 +1,22 @@
-# Mini Projecte 3 - Disseny i Infraestructura del Centre de Processament de Dades (CPD)
+# Mini Proyecto 3 - Diseño y Infraestructura del Centro de Procesamiento de Datos (CPD)
 
-Aquest mini projecte descriu el disseny físic i lògic del CPD del projecte OuterHeaven, amb l’objectiu de garantir **alta disponibilitat**, **redundància**, **seguretat física i lògica**, i **eficiència energètica**.
+Este miniproyecto describe el diseño físico y lógico del CPD del proyecto OuterHeaven, con el objetivo de garantizar **alta disponibilidad**, **redundància**, **seguridad física y logica**, y **eficiencia energetica**.
 
-## Objectius
+## Objetivos
 
-- Dissenyar un CPD escalable i modular amb dos racks diferenciats.
-- Aplicar millors pràctiques en refrigeració, alimentació i distribució de xarxa.
-- Simular un entorn professional de telecomunicacions amb ISP doble, balanceig i redundància completa.
-- Definir una arquitectura de racks ordenada i funcional.
+- Diseñar un CPD escalable y modular con dos racks diferenciados.
+- Aplicar mejores prácticas en refrigeración, alimentación y distribución de red.
+- Simular un entorno profesional de telecomunicaciones con ISP doble, balanceo y redundancia completa.
+- Definir una arquitectura de racks ordenada y funcional.
 
 ---
 
-## Contingut Tècnic
+## Contenido Tecnico
 
 ###  Estructura General del CPD
 
-- **Rack 1 (Processament)**: Proxmox, TrueNAS, SAI.
-- **Rack 2 (Comunicació)**: Switchos, routers, ONU, fibra, passarel·les PPPoE.
+- **Rack 1 (Procesamiento)**: Proxmox, TrueNAS, SAI.
+- **Rack 2 (Comuniacion)**: Switchos, routers, ONU, fibra, passarel·les PPPoE.
 - **Separació funcional per evitar col·lapse tèrmic o elèctric.**
 
 ###  Sistema de Refrigeració
