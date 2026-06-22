@@ -1,24 +1,23 @@
-# Mini Projecte 1 - Plataforma de Virtualització amb Proxmox VE
+# Mini Proyecto 1 - Plataforma de Virtualizacion con Proxmox VE
 
-Aquest mini projecte introdueix i desplega un entorn de virtualització d’alt rendiment mitjançant **Proxmox VE**, un hipervisor de tipus 1 basat en Debian,
-altament escalable i amb suport nadiu per a alta disponibilitat, gestió de VM/CT i emmagatzematge distribuït.
+Este miniproyecto introduce y despliega un entorno de virtualización de alto rendimiento mediante **Proxmox VE**, un hipervisor de tipo 1 basado en Debian, altamente escalable y con soporte nativo para alta disponibilidad, gestión de VM/CT y almacenamiento distribuido.
 
-## Objectius
+## Objetivos
 
-- Instal·lar i configurar Proxmox VE sobre màquina física.
-- Crear màquines virtuals i contenidors amb recursos optimitzats.
-- Teoria del sistema de xarxes (VLAN, bridges, bonding).
+- Instalar y configurar Proxmox VE sobre una máquina física.
+- Crear máquinas virtuales y contenedores con recursos optimizados.
+- Teoría del sistema de redes (VLAN, bridges, bonding).
 
-## Continguts Clau
+## Contenidos Clave
 
-### 1. Instal·lació de Proxmox
-- Selecció del disc adequat per al sistema.
-- Configuració de la IP d’administració i interfície web.
+### 1. Instalacion de Proxmox
+- Selección del disco adecuado para el sistema.
+- Configuración de la IP de administración e interfaz web.
 
-### 2. Creació de màquines virtuals
-- Ubuntu Desktop i Windows 10 amb configuracions optimitzades (vCPU, RAM, vGPU).
-- Ús de VirtIO SCSI per millorar l’IO i reduir latència.
+### 2. Creacion de maquinas virtuales
+- Debian, win10, RHEL (y otros S.O.) con configuraciones optimizadas (vCPU, RAM, vGPU).
+- Uso de VirtIO SCSI para mejorar el IO y reducir latencia.
 
-### 3. Configuració de Xarxa
-- Explicacio Teorica de Bridges i altres adaptadors de xarxa
-- Teoria Bonding per millorar ample de banda i redundància.
+### 3. Configuració de la Red
+- Explicación teórica de Bridges y otros adaptadores de red.
+- Teoría Bonding para mejorar ancho de banda y redundancia.
