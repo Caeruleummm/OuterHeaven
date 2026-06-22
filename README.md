@@ -23,7 +23,7 @@ En este repositorio encontraras la siguiente estructura e informacion del proyec
 - `/Diagrames/` → Todos los diagramas/esquemas del proyecto.
 - `/Extra/` → Capturas de las configuraciones más importantes del proyecto y cómo reparar un clúster de Proxmox.
 - `/Mini Projecte 1 Proxmox/` → Recursos e información sobre el mini proyecto de Proxmox.
-- `/Mini Projecte 2 Monitoritatge de Xarxa/` → Recursos e información sobre el mini proyecto de Monitoritatge de Xarxa.
+- `/Mini Projecte 2 Monitoritatge de Xarxa/` → Recursos e información sobre el mini proyecto de Monitorizacion de la Red.
 - `/Mini Projecte 3 CPD/` → Recursos e información sobre el mini proyecto de CPD.
 - `/Projecte OuterHeaven/` → Recursos e información sobre todo el proyecto personal, diagramas, configuraciones, herramientas a utilizar, infraestructura de red y sistemas, etc.
 
