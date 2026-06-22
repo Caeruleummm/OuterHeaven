@@ -62,6 +62,6 @@ Este directorio incluye diferentes areas del diseño del CPD:
 
 ---
 
-## 📌 Consideracions finals
+## 📌 Consideraciones finales
 
-El CPD d’OuterHeaven reflecteix una infraestructura professional, amb criteris clars d’escalabilitat i manteniment, i facilita el desplegament de serveis en condicions reals i segures. Ha estat pensat com una prova pilot per simular el funcionament d’un ISP de mida mitjana.
+El CPD de OuterHeaven refleja una infraestructura profesional, con criterios claros de escalabilidad y mantenimiento, y facilita el despliegue de servicios en condiciones reales y seguras. Ha sido pensado como una prueba piloto para simular el funcionamiento de un ISP de tamaño mediano.
